@@ -21,11 +21,11 @@
 
     
 
-    <div id='description' class='sized content'>
+    <div id="description" class="sized content">
       <p>
-        <span class='emphasis'></span> We were feeling in the mood to work on cellular automata, so inspired by research on pattern formation observed in the true slime mold <i>Physarum polycephalum</i> (<a href="https://uwe-repository.worktribe.com/output/980579" style="text-decoration: none;">Jones 2010</a>), we decided to implement an interactive simulation of this organism's fascinating behavior!<br><br>
+        <span class="emphasis"></span> We were feeling in the mood to work on cellular automata, so inspired by research on pattern formation observed in the true slime mold <i>Physarum polycephalum</i> (<a href="https://uwe-repository.worktribe.com/output/980579" style="text-decoration: none;">Jones 2010</a>), we decided to implement an interactive simulation of this organism's fascinating behavior!<br><br>
       </p>
-      <p> <span class='emphasis'>Instructions:</span>
+      <p> <span class="emphasis">Instructions:</span>
       <ul>
         <li> Click anywhere on the canvas to begin growing the slime mold from that point.</li>
         <li> Hold SHIFT and click anywhere on the canvas to kill off the slime mold in that particular area.</li>
@@ -35,7 +35,7 @@
       </ul>
       </p>
   
-      <p> <span class='emphasis'>How it works:</span><br>
+      <p> <span class="emphasis">How it works:</span><br>
 
         <br>Despite demonstrating a high capacity for cellular intelligence, the rules driving the slime mold (and their representations in our model) are actually quite simple! Following Jones' observations, we modelled the behavior of <i>Physarum polycephalum</i> as follows:
           <br><br>Every slime mold particle has three sensors, pointing straight ahead, skewed to the left, and skewed to the right. A sensor detects the amount of chemoattractant in its target area.
@@ -47,14 +47,14 @@
         <br>Each slime mold particle begins by "sensing" for chemoattractants (evaluating the values of its different sensors). If the middle sensor detects the most chemoattractant among the three, the slime mold particle stays oriented in the same direction. If both the left and right sensors detect more chemoattractant than the middle sensor and both detect the same amount, the slime mold particle turns randomly. If the right sensor detects more chemoattractant than the middle sensor, the slime mold particle turns right. If the left sensor detects more chemoattractant than the middle sensor, the slime mold particle turns left. Then, the slime mold particle simply moves forward according to the direction specified by its sensors, according to some specified step size.<br><br>Finally, the slime mold particle deposits chemoattractants in the chemoattractant trail layer of the model, and those chemoattractants diffuse into the surrounding area and slowly decays as time goes on. Believe it or not, that's all you need to know to understand how this model functions!
         </p>
         
-        <iframe width="800" height="800"
+        <iframe width="500" height="500"
           src="https://www.youtube.com/embed/CWU5sh9lTDU">
         </iframe>
   
-        <div id='footer' class='sizedcontent'>
-          <p> Made with ❤️ by <br><a href='https://github.com/mbm64'>Mohamed Ben Mekki</a>, 
-            <a href='https://github.com/leifmw'>Leif Martens-Wallace</a>, 
-             and <a href='https://github.com/rayane-b'>Rayane Bouafia</a> <br></p>
+        <div id="footer" class="sizedcontent">
+          <p> Made with ❤️ by <br><a href="https://github.com/mbm64">Mohamed Ben Mekki</a>, 
+            <a href="https://github.com/leifmw">Leif Martens-Wallace</a>, 
+             and <a href="https://github.com/rayane-b">Rayane Bouafia</a> <br></p>
         </div>
 
   </body>
