@@ -232,11 +232,9 @@ canvas {
   button:hover {
     background: #ff7d69;
     color: rgb(255, 255, 255);
-
-
   }
 
   .videoDemo {
-    display: block;
-    border-style:none;
+    border-style: none;
+    text-align: center;
   }
