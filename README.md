@@ -1,2 +1,2 @@
-# Slime-Mold-Simulation
-Simulating the spread of slime mold using cellular automata
+# My Way or the Slime Way
+A neat simulation modelling the behavior of Physarum slime molds.
