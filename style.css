@@ -236,7 +236,5 @@ canvas {
 
   .videoDemo {
     border-style: none;
-    display: block;
-    margin: 0 auto;
     filter: brightness(400%);
   }
