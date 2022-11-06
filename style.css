@@ -166,22 +166,20 @@ canvas {
     display: table;
   }
 
-
-
 .sizedcontent {
     margin-left: auto;
     margin-right: auto;
     width: 8em
 }
 
-.sliders{
+.sliders {
     display: flex;
     column-gap: 3px;
     margin-bottom: 5px;
     justify-content: space-between;
 }
 
-.sliderLabels{
+.sliderLabels {
   display: flex;
   column-gap: 21px;
   margin-bottom: 2px;
@@ -190,7 +188,7 @@ canvas {
   justify-content: space-between;
 }
 
-.clearNrand{
+.clearNrand {
     display: flex;
   column-gap: 5px;
   margin-bottom: 15px;
@@ -230,6 +228,7 @@ canvas {
     cursor: pointer;
     transition: 300ms;
   }
+
   button:hover {
     background: #ff7d69;
     color: rgb(255, 255, 255);
@@ -237,8 +236,7 @@ canvas {
 
   }
 
-  .videoDemo{
-    filter:brightness(400%);
+  .videoDemo {
+    display: block;
+    border-style:none;
   }
-
-  
